@@ -1,10 +1,10 @@
 <?php
 	if(isset($_POST['submit'])){
-		$BloodGroup = $_POST['myname'];
-		if($name == "" ){
+		$degree = $_POST['mydegree'];
+		if($degree == "" ){
 			echo "null submission.";
 		}else{
-			echo $name."<br>";
+			echo $degree."<br>";
 		}
 	}
 ?>
