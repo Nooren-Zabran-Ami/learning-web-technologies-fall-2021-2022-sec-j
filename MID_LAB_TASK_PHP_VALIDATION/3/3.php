@@ -19,7 +19,7 @@ function dateOfBirth()
 	<title> Date Of Birth Field </title>
 </head>
 <body>	
-	<form method="post" action="dateofbirth.php">
+	<form method="post">
 		<fieldset>
 			<legend> Date </legend>
 						<input type="date" name="mydateofbirth" value=""> <br>
