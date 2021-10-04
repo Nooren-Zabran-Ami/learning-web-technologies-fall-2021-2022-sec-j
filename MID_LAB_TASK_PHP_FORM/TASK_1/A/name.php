@@ -1,6 +1,6 @@
 <?php
 	if(isset($_POST['submit'])){
-		$BloodGroup = $_POST['myname'];
+		$name = $_POST['myname'];
 		if($name == "" ){
 			echo "null submission.";
 		}else{

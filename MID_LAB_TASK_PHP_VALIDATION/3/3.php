@@ -1,3 +1,18 @@
+<?php
+function dateOfBirth()
+{
+  if($_SERVER["REQUEST_METHOD"] == "POST")
+  {
+    $date = $_POST['dateOfBirth'];
+
+    if(empty($date))
+    {
+      echo "you need to select date.";
+    }
+  }
+}
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,7 +21,7 @@
 <body>	
 	<form method="post" action="dateofbirth.php">
 		<fieldset>
-			<legend>DateOfBirth</legend>
+			<legend> Date </legend>
 						<input type="date" name="mydateofbirth" value=""> <br>
 						<input type="submit" name="submit" value="Submit">
 		</fieldset>
