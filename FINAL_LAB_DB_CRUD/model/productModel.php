@@ -6,7 +6,7 @@
     {
         $con=getConnection();
 
-        $sql="insert into products values('','{$product['name']}','{$product['buying']}','{$product['selling']}')" ;
+        $sql="insert into products values('','{$product['name']}','{$product['bprice']}','{$product['sprice']}')" ;
 
                 if(mysqli_query($con,$sql))
                 {
