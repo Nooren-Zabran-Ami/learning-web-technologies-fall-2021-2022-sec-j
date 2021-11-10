@@ -1,0 +1,41 @@
+.user {
+  height: 30px;
+  width: 30px;
+  border-radius: 100px;
+}
+.first {
+  width: 250px;
+  background-color: white;
+  margin: 0px;
+  border-radius: 10px;
+}
+
+.second {
+  width: 250px;
+  background-color: white;
+  margin: 0px;
+  border-radius: 10px;
+}
+
+
+.sub-first {
+  margin: 10px;
+}
+
+.sub-second{
+  margin: 10px;
+}
+
+.first image {
+  width: 250px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.second image {
+  width: 250px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+body {
+  background-color: black;
+}
